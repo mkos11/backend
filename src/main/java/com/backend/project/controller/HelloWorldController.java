@@ -14,7 +14,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello/{name}")
     public Hello sayHelloAgain(@PathVariable("name") String name){
-        return new Hello(name +" : geset");
+        return new Hello("Hello :- "+name);
     }
 
 }
