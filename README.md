@@ -14,15 +14,14 @@ This backend project is designed to work seamlessly with the FrontendProject. It
 2. Set up a MySQL database and update the configuration in `application.properties`.
 3. Run the application using your preferred IDE or by using the command `./mvnw spring-boot:run`.
 
-##API Endpoints 🚀
+## API Endpoints 🚀
 
 
 GET /api/data: Retrieve data from the backend.
 POST /api/data: Add new data to the backend.
 PUT /api/data/{id}: Update data with the specified ID.
 DELETE /api/data/{id}: Delete data with the specified ID.
-Further Help ℹ️
-For more details on Spring Boot, refer to the Spring Boot Documentation
+
 
 ## Database Configuration 📊
 
@@ -33,13 +32,3 @@ spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 
-
-##API Endpoints 🚀
-GET /api/data: Retrieve data from the backend.
-POST /api/data: Add new data to the backend.
-PUT /api/data/{id}: Update data with the specified ID.
-DELETE /api/data/{id}: Delete data with the specified ID.
-Further Help ℹ️
-For more details on Spring Boot, refer to the Spring Boot Documentation.
-
-If you encounter any issues, feel free to ask for help
