@@ -15,6 +15,8 @@ This backend project is designed to work seamlessly with the FrontendProject. It
 3. Run the application using your preferred IDE or by using the command `./mvnw spring-boot:run`.
 
 ##API Endpoints 🚀
+
+
 GET /api/data: Retrieve data from the backend.
 POST /api/data: Add new data to the backend.
 PUT /api/data/{id}: Update data with the specified ID.
